@@ -49,8 +49,9 @@ class TemplateEngineTwital extends TemplateEngineBase
     protected function buildTwig()
     {
         $loader = new \Twig\Loader\FilesystemLoader($this->getTemplatesRootPath());
+	$twitalLoader = new TwitalLoader($loader);
 
-        $this->twig = new \Twig\Environment($loader, [
+        $this->twig = new \Twig\Environment($twitalLoader, [
             'cache' => $this->wire('config')->paths->assets . 'cache/' . self::COMPILE_DIR,
             'debug' => $this->isDebug(),
             'auto_reload' => (bool) $this->moduleConfig['auto_reload'],
