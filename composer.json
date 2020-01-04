@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "vcs",
-	    "url": "https://github.com/porl/TemplateEngineTwital.git"
+	    "url": "https://github.com/porl/twital.git"
 	}
     ],
     "require": {
