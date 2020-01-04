@@ -2,6 +2,8 @@
 
 namespace TemplateEngineTwital;
 
+use Goetas\Twital\TwitalLoader;
+
 use TemplateEngineFactory\TemplateEngineBase;
 
 /**
