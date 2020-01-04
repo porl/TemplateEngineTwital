@@ -1,4 +1,7 @@
-# TemplateEngineTwig
+# TemplateEngineTwital (modified TemplateEngineTwig)
+
+Instructions below are for original TemplateEngineTwig module. There is no current public release of this version for composer,
+so install twig version as shown and then clone/copy this module beside it.
 
 [![Build Status](https://travis-ci.org/wanze/TemplateEngineTwig.svg?branch=master)](https://travis-ci.org/wanze/TemplateEngineTwig)
 [![StyleCI](https://github.styleci.io/repos/21304492/shield?branch=master)](https://github.styleci.io/repos/21304492)
@@ -22,7 +25,7 @@ Use this version if you still use _TemplateEngineFactory_ `1.x`.
 Execute the following command in the root directory of your ProcessWire installation:
 
 ```
-composer require wanze/template-engine-twig:^2.0
+composer require wanze/template-engine-twital:^2.0
 ```
 
 This will install the _TemplateEngineTwig_ and _TemplateEngineFactory_ modules in one step. Afterwards, don't forget 
