@@ -2,7 +2,7 @@
 
 namespace ProcessWire;
 
-use TemplateEngineTwig\TemplateEngineTwital as TwitalEngine;
+use TemplateEngineTwital\TemplateEngineTwital as TwitalEngine;
 
 /**
  * Adds Twital templates to the TemplateEngineFactory module.
